@@ -4,10 +4,32 @@
     <string name="tour_guide_title">Székesfehérvár Guide</string>
 
     <string name="attraction_fragment_title">Attractions</string>
-
     <string name="restaurants_fragment_title">Restaurants</string>
-
     <string name="accomodation_fragment_title">Accomodation</string>
-
     <string name="events_fragment_title">Events</string>
+
+    <string name="attraction_1_name">The Ruined Garden of the Coronation Basilica – National Memorial Site</string>
+    <string name="attraction_1_address">8000 Székesfehérvár, Koronázó tér 1.</string>
+    <string name="attraction_1_opening_hours">Opening hours: 9AM-5PM</string>
+
+    <string name="attraction_2_name">Orb and Town Hall Square</string>
+    <string name="attraction_2_address">8000 Székesfehérvár, Városház tér 5.</string>
+    <string name="attraction_2_opening_hours">Opening hours: Open 24 hours</string>
+
+    <string name="attraction_3_name">Bory Castle</string>
+    <string name="attraction_3_address">8000 Székesfehérvár, Máriavölgyi út 54.</string>
+    <string name="attraction_3_opening_hours">Opening hours: from April to November</string>
+
+    <string name="attraction_4_name">St. Stephen Basilica</string>
+    <string name="attraction_4_address">8000 Székesfehérvár Arany János u. 9.</string>
+    <string name="attraction_4_opening_hours">Opening hours: 7AM-19PM</string>
+
+    <string name="attraction_5_name">Open Air Museum (Skanzen)</string>
+    <string name="attraction_5_address">8000 Székesfehérvár, Rác u.</string>
+    <string name="attraction_5_opening_hours">Opening hours: 10AM-17PM</string>
+
+    <string name="attraction_6_name">Flower-clock</string>
+    <string name="attraction_6_address">8000 Székesfehérvár, Országzászló tér</string>
+    <string name="attraction_6_opening_hours">Opening hours: Open 24 hours</string>
+    
 </resources>
