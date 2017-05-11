@@ -13,6 +13,7 @@
         <item name="tabIndicatorColor">@android:color/white</item>
         <item name="tabSelectedTextColor">@android:color/white</item>
         <item name="tabTextAppearance">@style/CategoryTabTextAppearance</item>
+        <item name="tabMode">scrollable</item>
     </style>
 
     <!-- Text appearance style for a category tab -->
