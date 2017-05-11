@@ -2,5 +2,8 @@
     <string name="app_name">SzekesfehervarGuide</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="attraction_fragment_title">Attractions</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="restaurants_fragment_title">Restaurants</string>
 </resources>

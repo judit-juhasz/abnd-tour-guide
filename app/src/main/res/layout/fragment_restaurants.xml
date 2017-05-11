@@ -2,12 +2,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="name.juhasz.judit.udacity.szekesfehervarguide.AttractionFragment">
+    tools:context="name.juhasz.judit.udacity.szekesfehervarguide.RestaurantsFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/attraction_fragment_title" />
+        android:text="@string/restaurants_fragment_title" />
 
 </FrameLayout>
