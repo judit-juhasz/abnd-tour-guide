@@ -9,4 +9,7 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="accomodation_fragment_title">Accomodation</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="events_fragment_title">Events</string>
 </resources>
