@@ -32,4 +32,28 @@
     <string name="attraction_6_address">8000 Székesfehérvár, Országzászló tér</string>
     <string name="attraction_6_opening_hours">Opening hours: Open 24 hours</string>
 
+    <string name="event_1_name">With Iron and Fire Festival</string>
+    <string name="event_1_address">8000 Székesfehérvár Rác u.27.</string>
+    <string name="event_1_opening_hours">2017. június 24.</string>
+
+    <string name="event_2_name">FEZEN</string>
+    <string name="event_2_address">8000 Székesfehérvár, Takarodó u. 1-3.</string>
+    <string name="event_2_opening_hours">2017. augusztus 02. - 2017. augusztus 05.</string>
+
+    <string name="event_3_name">Royal Days</string>
+    <string name="event_3_address">8000 Székesfehérvár, Koronázó tér</string>
+    <string name="event_3_opening_hours">2017. augusztus 11. - 2017. augusztus 20.</string>
+
+    <string name="event_4_name">Börgönd Flying Day</string>
+    <string name="event_4_address">8000 Székesfehérvár-Börgönd Reptér</string>
+    <string name="event_4_opening_hours">2017. szeptember 10.</string>
+
+    <string name="event_5_name">National Army Festival</string>
+    <string name="event_5_address">Pákozd Katonai Emlékpark</string>
+    <string name="event_5_opening_hours">2017. szeptember 23. - 2017. szeptember 29.</string>
+
+    <string name="event_6_name">Fehérvár Advent</string>
+    <string name="event_6_address">8000 Székesfehérvár, Koronázó tér</string>
+    <string name="event_6_opening_hours">2017. december 01. - 2017. december 24.</string>
+
 </resources>
