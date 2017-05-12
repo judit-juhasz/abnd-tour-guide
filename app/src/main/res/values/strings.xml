@@ -10,7 +10,7 @@
 
     <string name="attraction_1_name">The Ruined Garden of the Coronation Basilica – National Memorial Site</string>
     <string name="attraction_1_address">8000 Székesfehérvár, Koronázó tér 1.</string>
-    <string name="attraction_1_opening_hours">Opening hours: 9AM-5PM</string>
+    <string name="attraction_1_opening_hours">Opening hours: 9:00-17:00</string>
 
     <string name="attraction_2_name">Orb and Town Hall Square</string>
     <string name="attraction_2_address">8000 Székesfehérvár, Városház tér 5.</string>
@@ -22,11 +22,11 @@
 
     <string name="attraction_4_name">St. Stephen Basilica</string>
     <string name="attraction_4_address">8000 Székesfehérvár, Arany János u. 9.</string>
-    <string name="attraction_4_opening_hours">Opening hours: 7AM-19PM</string>
+    <string name="attraction_4_opening_hours">Opening hours: 7:00-19:00</string>
 
     <string name="attraction_5_name">Open Air Museum (Skanzen)</string>
     <string name="attraction_5_address">8000 Székesfehérvár, Rác u.</string>
-    <string name="attraction_5_opening_hours">Opening hours: 10AM-17PM</string>
+    <string name="attraction_5_opening_hours">Opening hours: 10:00-17:00</string>
 
     <string name="attraction_6_name">Flower-clock</string>
     <string name="attraction_6_address">8000 Székesfehérvár, Országzászló tér</string>
@@ -56,12 +56,36 @@
     <string name="event_6_address">8000 Székesfehérvár, Koronázó tér</string>
     <string name="event_6_opening_hours">2017. december 01. - 2017. december 24.</string>
 
+    <string name="restaurant_1_name">Diófa Restaurant</string>
+    <string name="restaurant_1_address">8000, Székesfehérvár, Kadocsa út. 32/a</string>
+    <string name="restaurant_1_opening_hours">Opening Hours: every day 11:00-23:00</string>
+
+    <string name="restaurant_2_name">Szárcsa Restaurant</string>
+    <string name="restaurant_2_address">8000 Székesfehérvár, Szárcsa utca 1. </string>
+    <string name="restaurant_2_opening_hours">Opening hours: every day 11:00-22:00</string>
+
+    <string name="restaurant_3_name">Kiskulacs Restaurant</string>
+    <string name="restaurant_3_address">8000 Székesfehérvár, Budai út 26.</string>
+    <string name="restaurant_3_opening_hours">Opening hours: every day 11:00-22:00</string>
+
+    <string name="restaurant_4_name">Kertész Inn</string>
+    <string name="restaurant_4_address">8000 Székesfehérvár, Iszkaszentgyörgyi út 2.</string>
+    <string name="restaurant_4_opening_hours">Opening hours: every day 10:00-22:00</string>
+
+    <string name="restaurant_5_name">Vörösmarty Confectionery</string>
+    <string name="restaurant_5_address">8000 Székesfehérvár, Várkapu u. 3.</string>
+    <string name="restaurant_5_opening_hours">Opening hours: every day 9:00-21:00</string>
+
+    <string name="restaurant_6_name">Soho Restaurant and Five X Bowling Center</string>
+    <string name="restaurant_6_address">8000 Székesfehérvár, Palotai út 6.</string>
+    <string name="restaurant_6_opening_hours">Opening hours: every day 11:00-24:00</string>
+
     <string name="accomodation_1_name">Hungarian King Hotel ****</string>
     <string name="accomodation_1_address">8000 Székesfehérvár, Fő utca 10.</string>
     <string name="accomodation_1_opening_hours">Opening Hours: Open 24 hours all year</string>
 
     <string name="accomodation_2_name">Lakeside Hotel****</string>
-    <string name="accomodation_2_address">8000 Székesfehérvár, Ligetsor 50A  </string>
+    <string name="accomodation_2_address">8000 Székesfehérvár, Ligetsor 50/A</string>
     <string name="accomodation_2_opening_hours">Opening hours: Open 24 hours all year</string>
 
     <string name="accomodation_3_name">Szárcsa Hotel***</string>
