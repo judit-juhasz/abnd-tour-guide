@@ -8,6 +8,6 @@ import android.view.ViewGroup;
 
 public class AccomodationFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_accomodation, container, false);
+        return inflater.inflate(R.layout.local_attraction_list, container, false);
     }
 }
