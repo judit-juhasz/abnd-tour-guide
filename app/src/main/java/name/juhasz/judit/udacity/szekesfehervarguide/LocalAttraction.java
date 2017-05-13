@@ -1,6 +1,7 @@
 package name.juhasz.judit.udacity.szekesfehervarguide;
 
 public class LocalAttraction {
+
     private String mLocalAttractionName;
     private String mLocalAttractionAddress;
     private String mLocalAttractionOpeningHours;
@@ -29,4 +30,5 @@ public class LocalAttraction {
     public int getmImageResourceId() {
         return mImageResourceId;
     }
+
 }
