@@ -20,7 +20,7 @@
 
             <ImageView
                 android:id="@+id/iv_image"
-                style="@style/Image"/>
+                style="@style/Image" />
 
             <LinearLayout
                 android:layout_width="@dimen/zero_width"
