@@ -11,6 +11,7 @@ public class CategoryAdapter extends FragmentPagerAdapter{
     private static final int POSITION_EVENT = 1;
     private static final int POSITION_ACCOMODATION = 2;
     private static final int POSITION_RESTAURANT = 3;
+    private static final int NUMBER_OF_POSITIONS = POSITION_RESTAURANT + 1;
 
     private Context mContext;
 
@@ -34,7 +35,7 @@ public class CategoryAdapter extends FragmentPagerAdapter{
 
     @Override
     public int getCount() {
-        return POSITION_RESTAURANT + 1;
+        return NUMBER_OF_POSITIONS;
     }
 
     @Override
