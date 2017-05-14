@@ -12,7 +12,7 @@ import java.util.ArrayList;
 public class AccomodationFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
-        View rootView = inflater.inflate(R.layout.local_attraction_list, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_local_attraction, container, false);
 
         ArrayList<LocalAttraction> accomodations = new ArrayList<>();
 
