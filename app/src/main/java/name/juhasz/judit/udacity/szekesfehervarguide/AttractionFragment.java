@@ -1,5 +1,6 @@
 package name.juhasz.judit.udacity.szekesfehervarguide;
 
+import android.content.res.TypedArray;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -16,26 +17,18 @@ public class AttractionFragment extends Fragment {
 
         View rootView = inflater.inflate(R.layout.fragment_local_attraction, container, false);
 
-        ArrayList<LocalAttraction> attractions = new ArrayList<>();
+        final ArrayList<LocalAttraction> attractions = new ArrayList<>();
 
-        attractions.add(new LocalAttraction(getString(R.string.attraction_1_name),
-                getString(R.string.attraction_1_address),
-                getString(R.string.attraction_1_opening_hours), R.drawable.national_memorial_place));
-        attractions.add(new LocalAttraction(getString(R.string.attraction_2_name),
-                getString(R.string.attraction_2_address),
-                getString(R.string.attraction_2_opening_hours), R.drawable.orb_and_town_hall_square));
-        attractions.add(new LocalAttraction(getString(R.string.attraction_3_name),
-                getString(R.string.attraction_3_address),
-                getString(R.string.attraction_3_opening_hours), R.drawable.bory_castle));
-        attractions.add(new LocalAttraction(getString(R.string.attraction_4_name),
-                getString(R.string.attraction_4_address),
-                getString(R.string.attraction_4_opening_hours), R.drawable.st_stephen_cathedral));
-        attractions.add(new LocalAttraction(getString(R.string.attraction_5_name),
-                getString(R.string.attraction_5_address),
-                getString(R.string.attraction_5_opening_hours), R.drawable.open_air_museum));
-        attractions.add(new LocalAttraction(getString(R.string.attraction_6_name),
-                getString(R.string.attraction_6_address),
-                getString(R.string.attraction_6_opening_hours), R.drawable.flower_clock));
+        final String[] attractionNames = getResources().getStringArray(R.array.list_attraction_names);
+        final String[] attractionAddresses = getResources().getStringArray(R.array.list_attraction_addresses);
+        final String[] attractionOpeningHours = getResources().getStringArray(R.array.list_attraction_opening_hours);
+        final TypedArray attractionImages = getResources().obtainTypedArray(R.array.list_attraction_images);
+
+        for  (int id = 0; id != attractionNames.length; ++id) {
+            LocalAttraction newLocalAttraction = new LocalAttraction(attractionNames[id], attractionAddresses[id],
+                    attractionOpeningHours[id], attractionImages.getDrawable(id));
+            attractions.add(newLocalAttraction);
+        }
 
         LocalAttractionAdapter adapter = new LocalAttractionAdapter(getActivity(), attractions);
 

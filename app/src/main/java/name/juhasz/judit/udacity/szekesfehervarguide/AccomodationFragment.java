@@ -1,5 +1,6 @@
 package name.juhasz.judit.udacity.szekesfehervarguide;
 
+import android.content.res.TypedArray;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -14,26 +15,18 @@ public class AccomodationFragment extends Fragment {
 
         View rootView = inflater.inflate(R.layout.fragment_local_attraction, container, false);
 
-        ArrayList<LocalAttraction> accomodations = new ArrayList<>();
+        final ArrayList<LocalAttraction> accomodations = new ArrayList<>();
 
-        accomodations.add(new LocalAttraction(getString(R.string.accomodation_1_name),
-                getString(R.string.accomodation_1_address),
-                getString(R.string.accomodation_1_opening_hours), R.drawable.hotel_king));
-        accomodations.add(new LocalAttraction(getString(R.string.accomodation_2_name),
-                getString(R.string.accomodation_2_address),
-                getString(R.string.accomodation_2_opening_hours), R.drawable.lakeside_hotel));
-        accomodations.add(new LocalAttraction(getString(R.string.accomodation_3_name),
-                getString(R.string.accomodation_3_address),
-                getString(R.string.accomodation_3_opening_hours), R.drawable.szarcsa_hotel));
-        accomodations.add(new LocalAttraction(getString(R.string.accomodation_4_name),
-                getString(R.string.accomodation_4_address),
-                getString(R.string.accomodation_4_opening_hours), R.drawable.jak));
-        accomodations.add(new LocalAttraction(getString(R.string.accomodation_5_name),
-                getString(R.string.accomodation_5_address),
-                getString(R.string.accomodation_5_opening_hours), R.drawable.kistuba_boarding_house));
-        accomodations.add(new LocalAttraction(getString(R.string.accomodation_6_name),
-                getString(R.string.accomodation_6_address),
-                getString(R.string.accomodation_6_opening_hours), R.drawable.vadaszkurt_hotel));
+        final String[] accomodationNames = getResources().getStringArray(R.array.list_accomodation_names);
+        final String[] accomodationAddresses = getResources().getStringArray(R.array.list_accomodation_addresses);
+        final String[] accomodationOpeningHours = getResources().getStringArray(R.array.list_accomodation_opening_hours);
+        final TypedArray accomodationImages = getResources().obtainTypedArray(R.array.list_accomodation_images);
+
+        for  (int id = 0; id != accomodationNames.length; ++id) {
+            LocalAttraction newLocalAttraction = new LocalAttraction(accomodationNames[id], accomodationAddresses[id],
+                    accomodationOpeningHours[id], accomodationImages.getDrawable(id));
+            accomodations.add(newLocalAttraction);
+        }
 
         LocalAttractionAdapter adapter = new LocalAttractionAdapter(getActivity(), accomodations);
 

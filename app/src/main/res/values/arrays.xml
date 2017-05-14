@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_attraction_names">
+        <item>The Ruined Garden of the Coronation Basilica</item>
+        <item>Orb and Town Hall Square</item>
+        <item>Bory Castle</item>
+        <item>St. Stephen Basilica</item>
+        <item>Open Air Museum (Skanzen)</item>
+        <item>Flower-clock</item>
+    </string-array>
+
+    <string-array name="list_attraction_addresses">
+        <item>8000 Székesfehérvár, Koronázó tér 1.</item>
+        <item>8000 Székesfehérvár, Városház tér 5.</item>
+        <item>8000 Székesfehérvár, Máriavölgyi út</item>
+        <item>8000 Székesfehérvár, Arany J. u. 9.</item>
+        <item>8000 Székesfehérvár, Rác u.</item>
+        <item>8000 Székesfehérvár, Országzászló tér</item>
+    </string-array>
+
+    <string-array name="list_attraction_opening_hours">
+        <item>Opening hours: 9:00-17:00</item>
+        <item>Opening hours: Open 24 hours</item>
+        <item>Opening hours: from April to November</item>
+        <item>Opening hours: 7:00-19:00</item>
+        <item>Opening hours: 10:00-17:00</item>
+        <item>Opening hours: Open 24 hours</item>
+    </string-array>
+
+    <array name="list_attraction_images">
+        <item>@drawable/national_memorial_place</item>
+        <item>@drawable/orb_and_town_hall_square</item>
+        <item>@drawable/bory_castle</item>
+        <item>@drawable/st_stephen_cathedral</item>
+        <item>@drawable/open_air_museum</item>
+        <item>@drawable/flower_clock</item>
+    </array>
+
+    <string-array name="list_event_names">
+        <item>With Iron and Fire Festival</item>
+        <item>FEZEN</item>
+        <item>Royal Days</item>
+        <item>Börgönd Flying Day</item>
+        <item>National Army Festival</item>
+        <item>Fehérvár Advent</item>
+    </string-array>
+
+    <string-array name="list_event_addresses">
+        <item>8000 Székesfehérvár, Rác u.27.</item>
+        <item>8000 Székesfehérvár, Takarodó u. 1.</item>
+        <item>8000 Székesfehérvár, Koronázó tér</item>
+        <item>8000 Börgönd Airport</item>
+        <item>Pákozd Katonai Emlékpark</item>
+        <item>8000 Székesfehérvár, Koronázó tér</item>
+    </string-array>
+
+    <string-array name="list_event_opening_hours">
+        <item>2017. June 24.</item>
+        <item>2017. August 02. - 2017. August 05.</item>
+        <item>2017. August 11. - 2017. August 20.</item>
+        <item>2017. September 10.</item>
+        <item>2017. September 23. - 2017. September 29.</item>
+        <item>2017. December 01. - 2017. December 24.</item>
+    </string-array>
+
+    <array name="list_event_images">
+        <item>@drawable/iron_and_fire_festival</item>
+        <item>@drawable/fezen</item>
+        <item>@drawable/royal_days</item>
+        <item>@drawable/flying_day</item>
+        <item>@drawable/national_army_festival</item>
+        <item>@drawable/advent</item>
+    </array>
+
+    <string-array name="list_accomodation_names">
+        <item>Hungarian King Hotel ****</item>
+        <item>Lakeside Hotel ****</item>
+        <item>Szárcsa Hotel ***</item>
+        <item>József Attila Kollégium</item>
+        <item>Kistuba Boarding house</item>
+        <item>Hotel Vadászkürt **</item>
+    </string-array>
+
+    <string-array name="list_accomodation_addresses">
+        <item>8000 Székesfehérvár, Fő utca 10.</item>
+        <item>8000 Székesfehérvár, Ligetsor 50/A.</item>
+        <item>8000 Székesfehérvár, Szárcsa u. 1.</item>
+        <item>8000 Székesfehérvár, Széchenyi utca</item>
+        <item>8000 Székesfehérvár, Bregyó köz 6.</item>
+        <item>8000 Székesfehérvár, Móricz u. 1.</item>
+    </string-array>
+
+    <string-array name="list_accomodation_opening_hours">
+        <item>Opening hours: Open 24 hours</item>
+        <item>Opening hours: Open 24 hours</item>
+        <item>Opening hours: Open 24 hours</item>
+        <item>Opening hours: from Friday to Sunday</item>
+        <item>Opening hours: Open 24 hours</item>
+        <item>Opening hours: Open 24 hours</item>
+    </string-array>
+
+    <array name="list_accomodation_images">
+        <item>@drawable/hotel_king</item>
+        <item>@drawable/lakeside_hotel</item>
+        <item>@drawable/szarcsa_hotel</item>
+        <item>@drawable/jak</item>
+        <item>@drawable/kistuba_boarding_house</item>
+        <item>@drawable/vadaszkurt_hotel</item>
+    </array>
+
+    <string-array name="list_restaurant_names">
+        <item>Diófa Restaurant</item>
+        <item>Szárcsa Restaurant</item>
+        <item>Kiskulacs Restaurant</item>
+        <item>Kertész Inn</item>
+        <item>Vörösmarty Confectionery</item>
+        <item>Soho Restaurant and Five X Bowling Center</item>
+    </string-array>
+
+    <string-array name="list_restaurant_addresses">
+        <item>8000 Székesfehérvár, Kadocsa út 32/a</item>
+        <item>8000 Székesfehérvár, Szárcsa u. 1.</item>
+        <item>8000 Székesfehérvár, Budai út 26.</item>
+        <item>8000 Székesfehérvár, Iszkaszentgyörgyi út 2.</item>
+        <item>8000 Székesfehérvár, Várkapu u. 3.</item>
+        <item>8000 Székesfehérvár, Palotai út 6.</item>
+    </string-array>
+
+    <string-array name="list_restaurant_opening_hours">
+        <item>Opening Hours: 11:00-23:00</item>
+        <item>Opening hours: 11:00-22:00</item>
+        <item>Opening hours: 11:00-22:00</item>
+        <item>Opening hours: 10:00-22:00</item>
+        <item>Opening hours: 9:00-21:00</item>
+        <item>Opening hours: 11:00-24:00</item>
+    </string-array>
+
+    <array name="list_restaurant_images">
+        <item>@drawable/diofa_restaurant</item>
+        <item>@drawable/szarcsa_restaurant</item>
+        <item>@drawable/kiskulacs_restaurant</item>
+        <item>@drawable/kertesz_inn</item>
+        <item>@drawable/vorosmarty_confectionery</item>
+        <item>@drawable/soho_restaurant</item>
+    </array>
+</resources>

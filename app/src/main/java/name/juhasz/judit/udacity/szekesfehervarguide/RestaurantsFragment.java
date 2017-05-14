@@ -1,5 +1,6 @@
 package name.juhasz.judit.udacity.szekesfehervarguide;
 
+import android.content.res.TypedArray;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -14,26 +15,18 @@ public class RestaurantsFragment extends Fragment {
 
         View rootView = inflater.inflate(R.layout.fragment_local_attraction, container, false);
 
-        ArrayList<LocalAttraction> restaurants = new ArrayList<>();
+        final ArrayList<LocalAttraction> restaurants = new ArrayList<>();
 
-        restaurants.add(new LocalAttraction(getString(R.string.restaurant_1_name),
-                getString(R.string.restaurant_1_address),
-                getString(R.string.restaurant_1_opening_hours), R.drawable.diofa_restaurant));
-        restaurants.add(new LocalAttraction(getString(R.string.restaurant_2_name),
-                getString(R.string.restaurant_2_address),
-                getString(R.string.restaurant_2_opening_hours), R.drawable.szarcsa_restaurant));
-        restaurants.add(new LocalAttraction(getString(R.string.restaurant_3_name),
-                getString(R.string.restaurant_3_address),
-                getString(R.string.restaurant_3_opening_hours), R.drawable.kiskulacs_restaurant));
-        restaurants.add(new LocalAttraction(getString(R.string.restaurant_4_name),
-                getString(R.string.restaurant_4_address),
-                getString(R.string.restaurant_4_opening_hours), R.drawable.kertesz_inn));
-        restaurants.add(new LocalAttraction(getString(R.string.restaurant_5_name),
-                getString(R.string.restaurant_5_address),
-                getString(R.string.restaurant_5_opening_hours), R.drawable.vorosmarty_confectionery));
-        restaurants.add(new LocalAttraction(getString(R.string.restaurant_6_name),
-                getString(R.string.restaurant_6_address),
-                getString(R.string.restaurant_6_opening_hours), R.drawable.soho_restaurant));
+        final String[] restaurantNames = getResources().getStringArray(R.array.list_restaurant_names);
+        final String[] restaurantAddresses = getResources().getStringArray(R.array.list_restaurant_addresses);
+        final String[] restaurantOpeningHours = getResources().getStringArray(R.array.list_restaurant_opening_hours);
+        final TypedArray restaurantImages = getResources().obtainTypedArray(R.array.list_restaurant_images);
+
+        for  (int id = 0; id != restaurantNames.length; ++id) {
+            LocalAttraction newLocalAttraction = new LocalAttraction(restaurantNames[id], restaurantAddresses[id],
+                    restaurantOpeningHours[id], restaurantImages.getDrawable(id));
+            restaurants.add(newLocalAttraction);
+        }
 
         LocalAttractionAdapter adapter = new LocalAttractionAdapter(getActivity(), restaurants);
 

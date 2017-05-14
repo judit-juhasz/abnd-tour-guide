@@ -1,5 +1,6 @@
 package name.juhasz.judit.udacity.szekesfehervarguide;
 
+import android.content.res.TypedArray;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -14,26 +15,18 @@ public class EventsFragment extends Fragment {
 
         View rootView = inflater.inflate(R.layout.fragment_local_attraction, container, false);
 
-        ArrayList<LocalAttraction> events = new ArrayList<>();
+        final ArrayList<LocalAttraction> events = new ArrayList<>();
 
-        events.add(new LocalAttraction(getString(R.string.event_1_name),
-                getString(R.string.event_1_address),
-                getString(R.string.event_1_opening_hours), R.drawable.iron_and_fire_festival));
-        events.add(new LocalAttraction(getString(R.string.event_2_name),
-                getString(R.string.event_2_address),
-                getString(R.string.event_2_opening_hours), R.drawable.fezen));
-        events.add(new LocalAttraction(getString(R.string.event_3_name),
-                getString(R.string.event_3_address),
-                getString(R.string.event_3_opening_hours), R.drawable.royal_days));
-        events.add(new LocalAttraction(getString(R.string.event_4_name),
-                getString(R.string.event_4_address),
-                getString(R.string.event_4_opening_hours), R.drawable.flying_day));
-        events.add(new LocalAttraction(getString(R.string.event_5_name),
-                getString(R.string.event_5_address),
-                getString(R.string.event_5_opening_hours), R.drawable.national_army_festival));
-        events.add(new LocalAttraction(getString(R.string.event_6_name),
-                getString(R.string.event_6_address),
-                getString(R.string.event_6_opening_hours), R.drawable.advent));
+        final String[] eventsNames = getResources().getStringArray(R.array.list_event_names);
+        final String[] eventsAddresses = getResources().getStringArray(R.array.list_event_addresses);
+        final String[] eventsOpeningHours = getResources().getStringArray(R.array.list_event_opening_hours);
+        final TypedArray eventsImages = getResources().obtainTypedArray(R.array.list_event_images);
+
+        for  (int id = 0; id != eventsNames.length; ++id) {
+            LocalAttraction newLocalAttraction = new LocalAttraction(eventsNames[id], eventsAddresses[id],
+                    eventsOpeningHours[id], eventsImages.getDrawable(id));
+            events.add(newLocalAttraction);
+        }
 
         LocalAttractionAdapter adapter = new LocalAttractionAdapter(getActivity(), events);
 

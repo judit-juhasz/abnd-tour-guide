@@ -1,34 +1,36 @@
 package name.juhasz.judit.udacity.szekesfehervarguide;
 
+import android.graphics.drawable.Drawable;
+
 public class LocalAttraction {
 
     private String mLocalAttractionName;
     private String mLocalAttractionAddress;
     private String mLocalAttractionOpeningHours;
-    private int mImageResourceId;
+    private Drawable mImageDrawable;
 
     public LocalAttraction(String localAttractionName, String localAttractionAddress,
-                           String localAttractionOpeningHours, int imageResourceId) {
+                            String localAttractionOpeningHours, Drawable imageDrawable) {
         mLocalAttractionName = localAttractionName;
         mLocalAttractionAddress = localAttractionAddress;
         mLocalAttractionOpeningHours = localAttractionOpeningHours;
-        mImageResourceId = imageResourceId;
+        mImageDrawable = imageDrawable;
     }
 
-    public String getmLocalAttractionName() {
+    public String getLocalAttractionName() {
         return mLocalAttractionName;
     }
 
-    public String getmLocalAttractionAddress() {
+    public String getLocalAttractionAddress() {
         return mLocalAttractionAddress;
     }
 
-    public String getmLocalAttractionOpeningHours() {
+    public String getLocalAttractionOpeningHours() {
         return mLocalAttractionOpeningHours;
     }
 
-    public int getmImageResourceId() {
-        return mImageResourceId;
+    public Drawable getImageDrawable() {
+        return mImageDrawable;
     }
 
 }
