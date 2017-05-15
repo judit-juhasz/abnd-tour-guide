@@ -27,16 +27,16 @@ public class LocalAttractionAdapter  extends ArrayAdapter<LocalAttraction>{
 
         LocalAttraction currentLocalAttraction = getItem(position);
 
-        TextView localAttractionNameTextView = (TextView) listItemView.findViewById(R.id.tv_name);
+        TextView localAttractionNameTextView = (TextView) listItemView.findViewById(R.id.tv_attraction_name);
         localAttractionNameTextView.setText(currentLocalAttraction.getLocalAttractionName());
 
-        TextView localAttractionAddressTextView = (TextView) listItemView.findViewById(R.id.tv_address);
+        TextView localAttractionAddressTextView = (TextView) listItemView.findViewById(R.id.tv_attraction_address);
         localAttractionAddressTextView.setText(currentLocalAttraction.getLocalAttractionAddress());
 
-        TextView localAttractionOpeningHoursTextView = (TextView) listItemView.findViewById(R.id.tv_opening_hours);
+        TextView localAttractionOpeningHoursTextView = (TextView) listItemView.findViewById(R.id.tv_attraction_opening_hours);
         localAttractionOpeningHoursTextView.setText(currentLocalAttraction.getLocalAttractionOpeningHours());
 
-        ImageView imageView = (ImageView) listItemView.findViewById(R.id.iv_image);
+        ImageView imageView = (ImageView) listItemView.findViewById(R.id.iv_attraction_image);
         imageView.setImageDrawable(currentLocalAttraction.getImageDrawable());
 
         return listItemView;

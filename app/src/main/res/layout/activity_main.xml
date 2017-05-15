@@ -7,7 +7,7 @@
     tools:context="name.juhasz.judit.udacity.szekesfehervarguide.MainActivity">
 
     <android.support.design.widget.TabLayout
-        android:id="@+id/tabs"
+        android:id="@+id/tab_local_attraction_category"
         style="@style/CategoryTab"
         android:background="@color/colorPrimary"
         android:layout_width="match_parent"
